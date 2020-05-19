@@ -204,6 +204,14 @@ a.btn.secondary {
     padding: 4rem 0 2rem;
   }
 }
+.site-header .logo {
+  padding-top: 1rem;
+}
+@media (min-width: 620px) {
+  .site-header .logo {
+    padding-top: 0;
+  }
+}
 .site-header .logo img {
   width: 300px;
 }
@@ -247,12 +255,13 @@ a.btn.secondary {
   text-align: center;
   display: grid;
   grid-gap: 2rem;
-  padding-top: 6rem;
+  padding-top: 2rem;
 }
 @media (min-width: 620px) {
   .intro {
     grid-template-columns: 1fr 1fr;
     text-align: right;
+    padding-top: 6rem;
   }
 }
 @media (min-width: 1200px) {

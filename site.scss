@@ -214,6 +214,10 @@ html {
         padding: 4rem 0 2rem;
     }
     .logo {
+        padding-top: 1rem;
+        @media #{$medium} {
+            padding-top: 0;
+        }
         img {
             width: 300px;
             @media #{$medium} {
@@ -250,10 +254,12 @@ html {
     text-align: center;
     display: grid;
     grid-gap: 2rem;
-    padding-top: 6rem;
+    padding-top: 2rem;
     @media #{$medium} {
         grid-template-columns: 1fr 1fr;
         text-align: right;
+        padding-top: 6rem;
+
     }
     @media #{$xlarge} {
         grid-template-columns: 600px 1fr;
