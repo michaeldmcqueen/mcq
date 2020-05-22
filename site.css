@@ -521,5 +521,28 @@ a.btn.secondary {
   padding: 0 0 2.5rem 0;
   margin: 0 auto;
 }
+.project-node-images .shot-note {
+  margin: -2.5rem 0 3rem;
+  padding: 2rem 2rem;
+  background: #000000;
+  font-weight: 700;
+  color: #fff;
+}
+
+@media (min-width: 620px) {
+  .col-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+}
+
+@media (min-width: 620px) {
+  .col-3 {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
 
 /*# sourceMappingURL=site.css.map */

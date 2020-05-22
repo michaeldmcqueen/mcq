@@ -479,4 +479,27 @@ html {
       padding: 0 0 2.5rem 0;
       margin: 0 auto;
     }
+    .shot-note {
+        margin: -2.5rem 0 3rem;
+        padding: 2rem 2rem;
+        background: #000000;
+        font-weight: 700;
+        color: #fff;
+    }
+  }
+
+  .col-2 {
+    @media #{$medium} {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+    }
+  }
+
+  .col-3 {
+    @media #{$medium} {
+        display: grid;
+        grid-gap: 2rem;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
   }
